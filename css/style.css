@@ -65,10 +65,6 @@ body{
 
 }
 
-.arrowRight:hover{
-
-}
-
 /* HOME */
 
 canvas { display: block;}
@@ -237,8 +233,34 @@ a:visited{
 }
 
 .skill{
-    border: solid white 2px;
+    border: solid white 4px;
     border-radius: 50%;
     width: 100px;
     height: 100px;
+    transition: .5s ease;
+    background-color: white;
+}
+
+.skill:hover{
+    border: solid #3498db 4px;
+}
+
+/* SOME WORDS */
+
+#tagline { 
+    font-size: 100px; 
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    color:#fff; 
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 150px;
+}
+
+.im { 
+    font-size: 75px; 
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    color:#fff; 
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 15%;
 }
