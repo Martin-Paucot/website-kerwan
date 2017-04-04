@@ -1,5 +1,5 @@
 $(function() {
-    var constellation = new Constellation({targetDiv: 'canvasdiv', pointSize: 2, screenBlur: 0.0, fpsDiv: 'fps', showFps: true, backgroundColor: '#2c3e50'});
+    var constellation = new Constellation({targetDiv: 'canvasdiv', pointSize: 2, screenBlur: 0.0, fpsDiv: 'fps', showFps: true, backgroundColor: '#1b2735'});
     constellation.init();
     constellation.start();
 });

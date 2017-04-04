@@ -322,7 +322,7 @@ var Constellation = function(userSettings) {
 		var lineColor = this.settings.lineColor;
 		var maxLineLength = this.settings.maxLineLength;
 		ctx.globalAlpha = 1 - this.settings.screenBlur;
-		ctx.fillStyle = '#2c3e50';
+		ctx.fillStyle = '#1b2735';
 		ctx.fillRect(0,0,this.canvas.width, this.canvas.height);
 		var i = this.points.length;
 
@@ -355,7 +355,7 @@ var Constellation = function(userSettings) {
 
 
 	this.init = function() {
-		this.context.fillStyle = '#2c3e50';
+		this.context.fillStyle = '#1b2735';
 		this.context.fillRect(0,0,this.canvas.width, this.canvas.height);
 		self.canvas.width = $(window).innerWidth();
 		self.canvas.height = $(window).innerHeight();

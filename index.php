@@ -12,13 +12,13 @@
 <div class="animsition">
     <div id="canvasdiv">
         <div class="middle">
-            <div class="title" data-hover="Kerwan">Kerwan</div>
+            <div class="title" data-hover="Martin Paucot">Martin Paucot</div>
             <button class="opener"><img src="images/add.png"/></button>
             <nav class="menu">
-                <a href="about.php" class="menuLink">A propos</a>
-                <a href="about.php" class="menuLink">Mes travaux</a>
-                <a href="about.php" class="menuLink">Mon expérience</a>
-                <a href="about.php" class="menuLink">Me contacter</a>
+                <a href="about.php" class="animsition-link menuLink" data-animsition-out-class="zoom-out" data-animsition-out-duration="2000">A propos</a>
+                <a href="skills.php" class="animsition-link menuLink" data-animsition-out-class="zoom-out" data-animsition-out-duration="2000">Mes compétences</a>
+                <a href="#" class="menuLink">Mon expérience</a>
+                <a href="#" class="menuLink">Me contacter</a>
             </nav>
         </div>
     </div>
